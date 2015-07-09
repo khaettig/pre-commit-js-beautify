@@ -1,0 +1,5 @@
+-   id: js-beautify
+    name: js-beautify
+    entry: js-beautify
+    language: node
+    files: \.js$
