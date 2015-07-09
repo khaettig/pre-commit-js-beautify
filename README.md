@@ -12,4 +12,11 @@ Add this to your `.pre-commit-config.yaml`:
         sha: ''  # Use the sha you want to point at
         hooks:
         -   id: js-beautify
+        args: [
+          '--replace',
+          '--end-with-newline',
+          '--indent-size=2',
+          '--indent-char= ',
+          '--max-preserve-newlines=2'
+        ]
 ```
